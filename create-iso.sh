@@ -57,7 +57,7 @@ sed -i "s/USERNAME/${USERNAME}/g" "$PRESEED_DEST"
 sed -i "s/CRYPTED_PASSWORD/${CPASS}/g" "$PRESEED_DEST"
 sed -i "s/SSH_PUB_KEY/${PUBKEY}/g" "$PRESEED_DEST"
 sed -i "s/TIMEZONE/${TIMEZONE}/g" "$PRESEED_DEST"
-sed -i "s/DOMAIN_NEM/${DOMAIN_NAME}/g" "$PRESEED_DEST"
+sed -i "s/DOMAIN_NAME/${DOMAIN_NAME}/g" "$PRESEED_DEST"
 
 ISO_DEST="debian-9.x.x-amd64-$USERNAME.iso"
 echo "Writing updated ISO to $ISO_DEST"
